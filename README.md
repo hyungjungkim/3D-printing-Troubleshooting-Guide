@@ -2,7 +2,7 @@
 A categorized dataset of 3D printing failures and defects for AI-based quality inspection and troubleshooting research
 
 ## Motivation
-The rapid growth of additive manufacturing has increased the need for automated quality control. However, diverse and labeled datasets of printing failures remain scarce. This repository aims to bridge this gap by providing a curated dataset, named the 3D printing troubleshooting guide, of 3D printing defects, especially the Fused Deposition Modelling (FDM) process, enabling the development of machine learning models for real-time error detection and autonomous troubleshooting.
+As manufacturing undergoes a rapid digital transformation, Large Language Models (LLMs) are becoming pivotal to automating complex decision-making. In Additive Manufacturing (AM), however, the transition to fully autonomous quality control is hindered by a critical bottleneck: the lack of high-quality, labeled failure datasets. While Fused Deposition Modeling (FDM) is the most accessible 3D printing technology, troubleshooting remains a manual, trial-and-error process for many. This repository presents the 3D Printing Troubleshooting Guide, a curated dataset that bridges this gap. By providing structured data on defects and solutions, we aim to empower LLMs and machine learning models to perform real-time error detection and autonomous troubleshooting, turning domain-specific knowledge into actionable AI.
 
 ## Dataset description
 This dataset was manually curated from technical documents on the 3D printing process and output quality issues. The following are source websites:
@@ -11,7 +11,8 @@ This dataset was manually curated from technical documents on the 3D printing pr
 * [All3DP](https://all3dp.com/1/common-3d-printing-problems-troubleshooting-3d-printer-issues)
 
 ### Creation details
-The original documents were fully reviewed, with redundant entries consolidated and irrelevant links or unnecessary examples removed to ensure conciseness and clarity.
+The original technical documents were reviewed in full, redundant entries were consolidated, and irrelevant links and unnecessary examples were removed.
+
 * Content: Each entry consists of three components
   * Problem – Description of the print quality issue
   * Cause – Identified or potential reasons for the issue
@@ -19,7 +20,18 @@ The original documents were fully reviewed, with redundant entries consolidated 
 * Format: The dataset is provided in both Markdown and PDF formats for flexible use in machine learning and information retrieval research.
 
 ### Sample contents
-(To be added.)
+    ...
+    2. Not Sticking to the Bed
+    
+    Solution
+    1) Build platform is not level
+    Many printers include an adjustable bed with several screws or knobs that control the
+    position of the bed. If your printer has an adjustable bed and you’re having trouble
+    getting your first layer to stick to the bed, the first thing you will want to verify is that
+    your printer’s bed is flat and level. If the bed is not level, one side of your bed may
+    be too close to the nozzle, while the other side is too far away. Achieving a perfect
+    first layer requires a level print bed.
+    ...
 
 ## Original publication
 (To be added.)
@@ -34,4 +46,4 @@ This dataset is licensed under [CC BY 4.0](https://creativecommons.org/licenses/
 ## Contact
 Please email Kangmin Ahn (akm5587@konkuk.ac.kr, co-creator), Jinju Kang (jingu1138@konkuk.ac.kr, co-creator), or Hyungjung Kim (hyungjungkim@konkuk.ac.kr, maintainer) for any questions regarding the dataset.
 
-<img src="images/konkuk_university.jpg" height="45"/>
+<img src="images/konkuk_university.png" height="45"/>
