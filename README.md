@@ -25,7 +25,6 @@ The original technical documents were reviewed in full, redundant entries were c
     ...
     2. Not Sticking to the Bed
     
-    Solution
     1) Build platform is not level
     Many printers include an adjustable bed with several screws or knobs that control the
     position of the bed. If your printer has an adjustable bed and you’re having trouble
